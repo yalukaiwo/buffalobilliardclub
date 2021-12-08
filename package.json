@@ -1,20 +1,20 @@
 {
-  "name": "buffalobilliardclub",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "client",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yalukaiwo/buffalobilliardclub.git"
+  "dependencies": {
+    "next": "12.0.7",
+    "node-sass": "^6.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yalukaiwo/buffalobilliardclub/issues"
-  },
-  "homepage": "https://github.com/yalukaiwo/buffalobilliardclub#readme"
+  "devDependencies": {
+    "eslint": "8.4.1",
+    "eslint-config-next": "12.0.7"
+  }
 }
