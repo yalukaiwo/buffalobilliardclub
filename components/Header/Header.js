@@ -6,7 +6,7 @@ import NavLink from "../NavLink/NavLink";
 export default function Header() {
   return (
     <div className={styles.header}>
-      <img className={styles.image} src="./logo.png" />
+      <img className={styles.image} src="./logo.svg" />
       <ul className={styles.nav}>
         <NavLink
           href="/menu"

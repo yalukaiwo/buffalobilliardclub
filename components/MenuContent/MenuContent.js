@@ -8,7 +8,7 @@ export default function MenuContent({ content }) {
   const elements = categorie.postitions;
 
   const JSX = elements.map((el) => {
-    return <MenuContentItem element={el} />;
+    return <MenuContentItem element={el} key={el.name.uk} />;
   });
 
   return <div className={styles.content}>{JSX}</div>;
