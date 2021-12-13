@@ -1,4 +1,4 @@
-import Header from "../../components/Header/header";
+import Header from "../../components/Header/Header";
 import styles from "../../styles/Menupage.module.scss";
 import Head from "next/head";
 import PageTitle from "../../components/PageTitle/PageTitle";
