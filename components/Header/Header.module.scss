@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    background: linear-gradient(0deg, rgba(255,251,244,0) 0%, #fffbf4 100%);
+}
+
+.image {
+    width: 100px;
+}
+
+.nav__link {
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    color: #000;
+    &_active {
+        color: #78303e;
+    }
+}

@@ -1,0 +1,17 @@
+.page {
+    min-height: 100vh;
+    background-image: url('https://res.cloudinary.com/yalukaiwo/image/upload/v1639407562/buffalobilliardclub/website_data/99746textured_omxdbw.png');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1260px;
+    padding: 0 60px;
+    margin: 0 auto;
+}
+
+.content_holder {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}

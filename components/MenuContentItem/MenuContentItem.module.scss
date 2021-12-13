@@ -1,0 +1,28 @@
+.menu__position {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+}
+
+.position__name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    &_uk {
+        font-family: 'Oswald', sans-serif;
+        font-weight: 500;
+    }
+    &_en {
+        font-family: 'PT Serif', serif;
+        font-style: italic;
+        color: rgba(0,0,0,0.7)
+    }
+}
+
+.position__price {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+}
+
+
