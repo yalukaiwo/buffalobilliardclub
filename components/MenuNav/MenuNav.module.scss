@@ -44,18 +44,17 @@
 }
 
 .menu__toggle_holder {
-    position: fixed;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -55px);
     width: 100%;
-    display: flex;
     justify-content: center;
     background-color: rgba(0,0,0,0.05);
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
     z-index: 300;
     display: none;
     @media(max-width: 590px) {
-        display: block;
+        display: flex;
     }
 }
 
