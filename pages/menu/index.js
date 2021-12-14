@@ -1,5 +1,5 @@
 import Header from "../../components/Header/Header";
-import styles from "../../styles/menupage.module.scss";
+import styles from "../../styles/Menupage.module.scss";
 import Head from "next/head";
 import PageTitle from "../../components/PageTitle/PageTitle";
 import MenuNav from "../../components/MenuNav/MenuNav";
