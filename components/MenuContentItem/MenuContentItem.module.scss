@@ -3,26 +3,49 @@
     justify-content: space-between;
     width: 100%;
     gap: 40px;
+    @media(max-width: 590px) {
+        flex-direction: column;
+        gap: 8px;
+        justify-content: center;
+    }
 }
 
 .position__name {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    &_holder {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        @media(max-width: 590px) {
+            gap: 5px;
+            align-items: center;
+        }
+    }
     &_uk {
         font-family: 'Oswald', sans-serif;
         font-weight: 500;
+        @media(max-width: 590px) {
+            text-align: center;
+            max-width: 270px;
+        }
     }
     &_en {
         font-family: 'PT Serif', serif;
         font-style: italic;
-        color: rgba(0,0,0,0.7)
+        font-size: 14px;
+        color: rgba(0,0,0,0.7);
+        @media(max-width: 590px) {
+            text-align: center;
+            max-width: 270px;
+        }
     }
+    
 }
 
 .position__price {
     font-family: 'PT Serif', serif;
     font-style: italic;
+    min-width: 100px;
+    text-align: center;
 }
 
 

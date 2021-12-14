@@ -4,7 +4,7 @@ import styles from "./MenuContentItem.module.scss";
 export default function MenuContentItem({ element }) {
   return (
     <div className={styles.menu__position}>
-      <div className={styles.postition__name}>
+      <div className={styles.position__name_holder}>
         <h2 className={styles.position__name_uk}>{element.name.uk}</h2>
         <h3 className={styles.position__name_en}>{element.name.en}</h3>
       </div>

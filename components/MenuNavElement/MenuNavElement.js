@@ -6,9 +6,11 @@ export default function MenuNavElement({
   activeClass,
   text,
   setContent,
+  setOpen,
 }) {
   const clickHandler = () => {
     setContent(text);
+    setOpen(false);
   };
 
   return (
