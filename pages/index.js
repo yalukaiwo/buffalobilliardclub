@@ -1,4 +1,4 @@
-import style from "../styles/Constructionpage.module.scss";
+import style from "../styles/constructionpage.module.scss";
 import Head from "next/head";
 
 export default function Home() {
