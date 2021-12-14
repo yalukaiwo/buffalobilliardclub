@@ -61,8 +61,7 @@ const menu = [
         weight: 100,
         price: 190,
       },
-    ],
-  },
+    ],  },
 ];
 
 export default menu;
