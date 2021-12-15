@@ -4,12 +4,14 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding-bottom: 8px;
     min-width: 180px;
     @media (max-width: $media_barrier) {
         position: fixed;
         top: 120px;
         left: 0;
         gap: 15px;
+        padding-bottom: 8px;
         width: 100vw;
         background-image: url('https://res.cloudinary.com/yalukaiwo/image/upload/v1639407562/buffalobilliardclub/website_data/99746textured_omxdbw.png');
         height: calc(100% - 40px);
