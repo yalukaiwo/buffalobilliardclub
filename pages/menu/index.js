@@ -2,10 +2,9 @@ import Header from "../../components/Header/Header";
 import styles from "../../styles/Menupage.module.scss";
 import Head from "next/head";
 import MenuNav from "../../components/MenuNav/MenuNav";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import menu from "../../menu/menu";
 import MenuContent from "../../components/MenuContent/MenuContent";
-import { useEffect } from "react/cjs/react.development";
 
 export default function Menu() {
   const [arrow, setArrow] = useState(false);
