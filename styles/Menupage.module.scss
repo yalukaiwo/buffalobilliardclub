@@ -1,7 +1,11 @@
+@import "./styles/vars";
+
 .page {
     min-height: 100vh;
     background-image: url('https://res.cloudinary.com/yalukaiwo/image/upload/v1639407562/buffalobilliardclub/website_data/99746textured_omxdbw.png');
     background-size: cover;
+    padding-bottom: 50px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -14,4 +18,26 @@
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
+}
+
+.scrolltop {
+    width: auto;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(0,0,0,0.05);
+    display: none;
+    @media(max-width: $media_barrier) {
+        display: flex;
+    }
+}
+
+.scrolltop_image {
+    width: 40px;
 }

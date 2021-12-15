@@ -3,7 +3,7 @@ import styles from "./Header.module.scss";
 import Link from "next/link";
 import NavLink from "../NavLink/NavLink";
 
-export default function Header() {
+export default function Header({ fixed }) {
   return (
     <div className={styles.header}>
       <img className={styles.image} src="./logo.svg" />

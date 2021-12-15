@@ -3,8 +3,8 @@ import menu from "../../menu/menu";
 import MenuContentItem from "../MenuContentItem/MenuContentItem";
 import styles from "./MenuContent.module.scss";
 
-export default function MenuContent({ content }) {
-  const categorie = menu.find((el) => el.name.uk === content);
+export default function MenuContent({ content, type }) {
+  const categorie = menu[type].categories.find((el) => el.name.uk === content);
   const elements = categorie.postitions;
 
   const JSX = elements.map((el) => {

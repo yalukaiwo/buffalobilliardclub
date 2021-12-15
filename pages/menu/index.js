@@ -1,14 +1,32 @@
 import Header from "../../components/Header/Header";
 import styles from "../../styles/Menupage.module.scss";
 import Head from "next/head";
-import PageTitle from "../../components/PageTitle/PageTitle";
 import MenuNav from "../../components/MenuNav/MenuNav";
 import { useState } from "react";
 import menu from "../../menu/menu";
 import MenuContent from "../../components/MenuContent/MenuContent";
+import { useEffect } from "react/cjs/react.development";
 
 export default function Menu() {
-  const [content, setContent] = useState(menu[0].name.uk);
+  const [arrow, setArrow] = useState(false);
+  const [type, setType] = useState("foods");
+  const [content, setContent] = useState(menu[type].categories[0].name.uk);
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    window.onscroll = () => {
+      const scrolled = document.documentElement.scrollTop;
+      if (scrolled > 140) {
+        setArrow(true);
+      } else if (scrolled <= 140) {
+        setArrow(false);
+      }
+    };
+  }, []);
+
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className={styles.page}>
@@ -17,11 +35,26 @@ export default function Menu() {
           <title>Меню</title>
         </Head>
         <Header />
-        {/* <PageTitle text="Наше меню" /> */}
         <div className={styles.content_holder}>
-          <MenuNav setContent={setContent} content={content} />
-          <MenuContent content={content} />
+          <MenuNav
+            setContent={setContent}
+            content={content}
+            open={open}
+            setOpen={setOpen}
+            type={type}
+            setType={setType}
+          />
+          <MenuContent content={content} type={type} />
         </div>
+        {arrow && (
+          <div className={styles.scrolltop} onClick={scrollTop}>
+            <img
+              src="./arrow.svg"
+              alt="go up"
+              className={styles.scrolltop_image}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
