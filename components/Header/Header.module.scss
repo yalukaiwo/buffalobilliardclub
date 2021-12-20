@@ -20,9 +20,9 @@
     font-size: 20px;
     font-family: $main_font;
     text-decoration: none;
-    color: #000;
+    color: $main_font_color;
     &_active {
-        color: #78303e;
+        color: #ed4653;
     }
     @media(max-width: $media_barrier) {
         font-size: 17px;

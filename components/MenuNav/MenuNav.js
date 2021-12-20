@@ -58,21 +58,25 @@ export default function MenuNav({
       >
         <div className={styles.header}>
           <img src="./logo.svg" alt="logo" className={styles.image} />
+          <div
+            className={styles.menu__toggle_holder_open}
+            onClick={clickHandler}
+          >
+            <img
+              src="./arrow.svg"
+              className={`${styles.menu__toggle} ${
+                open ? styles.menu__toggle_open : ""
+              }`}
+            />
+          </div>
         </div>
         <div className={styles.type__toggler}>{typesJSX}</div>
         {JSX}
       </ul>
-      <div
-        className={`${styles.menu__toggle_holder} ${
-          open ? styles.menu__toggle_holder_open : ""
-        }`}
-        onClick={clickHandler}
-      >
+      <div className={styles.menu__toggle_holder} onClick={clickHandler}>
         <img
           src="./arrow.svg"
-          className={`${styles.menu__toggle} ${
-            open ? styles.menu__toggle_open : ""
-          }`}
+          className={`${styles.menu__toggle} ${open ? styles.hidden : ""}`}
         />
       </div>
     </>

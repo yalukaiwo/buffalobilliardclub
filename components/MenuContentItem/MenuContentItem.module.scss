@@ -26,6 +26,7 @@
         font-family: $main_font;
         font-weight: 500;
         font-size: 18px;
+        color: $main_font_color;
         @media(max-width: $media_barrier) {
             font-size: 16px;
         }
@@ -38,7 +39,7 @@
         font-family: $secondary_font;
         font-style: italic;
         font-size: 16px;
-        color: rgba(0,0,0,0.7);
+        color: $secondary_font_color;
         @media(max-width: $media_barrier) {
             font-size: 14px;
         }
@@ -57,6 +58,7 @@
     font-size: 18px;
     min-width: 100px;
     text-align: right;
+    color: $main_font_color;
     @media (max-width: $media_barrier) {
         font-size: 16px;
         text-align: center;
