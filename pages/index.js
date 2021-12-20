@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <header className={style.header}>
         <div className={style.header__logo}>
-          <img src="./logo.svg" alt="logo" className={style.logo} />
+          <img src="./logo.png" alt="logo" className={style.logo} />
         </div>
       </header>
       <main className={style.main}>
