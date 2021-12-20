@@ -9,9 +9,9 @@
 }
 
 .image {
-    width: 140px;
+    width: 115px;
     @media(max-width: $media_barrier) {
-        width: 115px;
+        width: 90px;
     }
 }
 

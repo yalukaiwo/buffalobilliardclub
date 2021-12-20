@@ -57,7 +57,7 @@ export default function MenuNav({
         className={`${styles.menu__nav} ${open ? styles.menu__nav_open : ""}`}
       >
         <div className={styles.header}>
-          <img src="./logo.svg" alt="logo" className={styles.image} />
+          <img src="./logo.png" alt="logo" className={styles.image} />
           <div
             className={styles.menu__toggle_holder_open}
             onClick={clickHandler}
