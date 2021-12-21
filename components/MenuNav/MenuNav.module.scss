@@ -18,6 +18,7 @@
         width: 100vw;
         background-image: url('https://res.cloudinary.com/yalukaiwo/image/upload/v1640113490/buffalobilliardclub/website_data/Depositphotos_13634325_original_j6ad6t.jpg');
         height: calc(100%);
+        background-size: cover;
         transition: all cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
         transform: translate(0, calc(-100% - 120px));
         z-index: -1;
