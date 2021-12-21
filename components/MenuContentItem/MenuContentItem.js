@@ -10,7 +10,8 @@ export default function MenuContentItem({ element }) {
       </div>
       <div className={styles.position__information}>
         <h2 className={styles.position__price}>
-          {element.price}&#8372; / {element.weight + element.indentifyer}
+          {element.price}&#8372;{" "}
+          {element.weight && `/ ${element.weight + element.indentifyer}`}
         </h2>
       </div>
     </div>
