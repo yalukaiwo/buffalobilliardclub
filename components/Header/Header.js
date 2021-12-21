@@ -8,14 +8,11 @@ export default function Header({ fixed }) {
     <div className={styles.header}>
       <img className={styles.image} src="./logo.png" />
       <ul className={styles.nav}>
-        <NavLink
-          href="/menu"
-          exact
-          className={styles.nav__link}
-          activeClass={styles.nav__link_active}
+        <li
+          className={`${styles.nav__link} ${styles.nav__link_active} ${styles.shedule}`}
         >
-          Меню
-        </NavLink>
+          12.00 - 01.00
+        </li>
       </ul>
     </div>
   );

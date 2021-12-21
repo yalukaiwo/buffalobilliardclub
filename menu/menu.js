@@ -581,143 +581,658 @@ const menu = {
     categories: [
       {
         name: {
-          en: "Cold plate",
-          uk: "Холодні закуски",
+          en: "Drink",
+          uk: "Горілка",
         },
         postitions: [
           {
             name: {
-              en: "Cheese plate",
-              uk: "Сирна тарілка",
+              en: "Absolut",
+              uk: "Absolut",
             },
-            weight: 150,
-            price: 300,
-            indentifyer: "г",
+            weight: "50",
+            price: 65,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Beef carpaccio",
-              uk: "Карпаччо з телятини",
+              en: "Wyborowa",
+              uk: "Wyborowa",
             },
-            weight: 150,
-            price: 150,
-            indentifyer: "г",
+            weight: "50",
+            price: 52,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Salmon carpaccio",
-              uk: "Карпаччо з сьомги",
+              en: "Перша гільдія «Престиж»",
+              uk: "Перша гільдія «Престиж»",
             },
-            weight: 100,
-            price: 190,
-            indentifyer: "г",
+            weight: "50",
+            price: 65,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Tuna tartar with rocket",
-              uk: "Тартар з тунця на подушці з рукколи",
+              en: "Перша гільдія «Верховна»",
+              uk: "Перша гільдія «Верховна»",
             },
-            weight: 150,
-            price: 190,
-            indentifyer: "г",
+            weight: "50",
+            price: 40,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: '"Salo" Ukrainian style',
-              uk: "Сало українське в спеціях",
+              en: "Перша гільдія «Поважна»",
+              uk: "Перша гільдія «Поважна»",
             },
-            weight: 100,
-            price: 90,
-            indentifyer: "г",
+            weight: "50",
+            price: 40,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Herring with onions",
-              uk: "Оселедець з цибулею",
+              en: "Козацька рада «Преміум»",
+              uk: "Козацька рада «Преміум»",
             },
-            weight: 100,
-            price: 70,
-            indentifyer: "г",
+            weight: "50",
+            price: 45,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Pickles",
-              uk: "Соління",
+              en: "Козацька рада «Оригінальна»",
+              uk: "Козацька рада «Оригінальна»",
             },
-            weight: 600,
-            price: 120,
-            indentifyer: "г",
+            weight: "50",
+            price: 35,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Козацька рада «Класична»",
+              uk: "Козацька рада «Класична»",
+            },
+            weight: "50",
+            price: 35,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Хлібний дар «Класична»",
+              uk: "Хлібний дар «Класична»",
+            },
+            weight: "50",
+            price: 35,
+            indentifyer: "мл",
           },
         ],
       },
       {
         name: {
-          en: "Appetizers",
-          uk: "Гарячі закуски",
+          en: "Drink",
+          uk: "Віскі",
         },
         postitions: [
           {
             name: {
-              en: "Coated Buffalo chicken wings with sweat chili",
-              uk: "Крильця Buffalo з солодким чилі",
+              en: "The Glenlivet Founder's Reserve",
+              uk: "The Glenlivet Founder's Reserve",
             },
-            weight: 300,
-            price: 155,
-            indentifyer: "г",
+            weight: "50",
+            price: 200,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Classic Buffalo chicken wings with blue cheese sauce",
-              uk: "Гострі крильця Buffalo з блакитним сиром",
+              en: "Chivas Regal XV",
+              uk: "Chivas Regal XV",
             },
-            weight: 300,
-            price: 155,
-            indentifyer: "г",
+            weight: "50",
+            price: 250,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Chicken wings with BBQ sauce",
-              uk: "Курячі крильця з соусом BBQ",
+              en: "Chivas Regal 12 YO",
+              uk: "Chivas Regal 12 YO",
             },
-            weight: 300,
-            price: 155,
-            indentifyer: "г",
+            weight: "50",
+            price: 190,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Potato pancakes with sour cream",
-              uk: "Домашні деруни зі сметаною",
+              en: "Jameson",
+              uk: "Jameson",
             },
-            weight: 250,
-            price: 120,
-            indentifyer: "г",
+            weight: "50",
+            price: 100,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Potato pancakes with bacon and onion",
-              uk: "Деруни з беконом та печерицями",
+              en: "Ballantine's Finest",
+              uk: "Ballantine's Finest",
             },
-            weight: 350,
-            price: 150,
-            indentifyer: "г",
+            weight: "50",
+            price: 100,
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Grilled potatoes with bacon, onions and cheese",
-              uk: "Смажена картопля з цибулею і беконом запечена під сиром",
+              en: "Redbreast 12 YO",
+              uk: "Redbreast 12 YO",
             },
-            weight: 250,
+            weight: "50",
+            price: 200,
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Коньяк",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Martel VSOP",
+              uk: "Martel VSOP",
+            },
+            weight: "50",
+            price: 240,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Martel VS",
+              uk: "Martel VS",
+            },
+            weight: "50",
             price: 170,
-            indentifyer: "г",
+            indentifyer: "мл",
           },
           {
             name: {
-              en: "Cheburek - deep-fried turnover",
-              uk: "Чебурек",
+              en: "ARARAT 5*",
+              uk: "ARARAT 5*",
             },
-            weight: 1,
-            price: 75,
-            indentifyer: "шт",
+            weight: "50",
+            price: 100,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "ARARAT 3*",
+              uk: "ARARAT 3*",
+            },
+            weight: "50",
+            price: 80,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Старий Кахеті 5*",
+              uk: "Старий Кахеті 5*",
+            },
+            weight: "50",
+            price: 85,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Старий Кахеті 4*",
+              uk: "Старий Кахеті 4*",
+            },
+            weight: "50",
+            price: 70,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Коблево Резерв ХО",
+              uk: "Коблево Резерв ХО",
+            },
+            weight: "50",
+            price: 100,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Коблево Резерв VS",
+              uk: "Коблево Резерв VS",
+            },
+            weight: "50",
+            price: 50,
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Ром, Текіла, Джин, Лікери",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Becherovka",
+              uk: "Becherovka",
+            },
+            weight: "50",
+            price: 70,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Becherovka Lemond",
+              uk: "Becherovka Lemond",
+            },
+            weight: "50",
+            price: 70,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Beefeater",
+              uk: "Beefeater",
+            },
+            weight: "50",
+            price: 85,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Olmeca",
+              uk: "Olmeca",
+            },
+            weight: "50",
+            price: 100,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Havana Club",
+              uk: "Havana Club",
+            },
+            weight: "50",
+            price: 80,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Lillet Blanc",
+              uk: "Lillet Blanc",
+            },
+            weight: "50",
+            price: 45,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Martini",
+              uk: "Martini",
+            },
+            weight: "50",
+            price: 35,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Ramazzotti Sambuca",
+              uk: "Ramazzotti Sambuca",
+            },
+            weight: "50",
+            price: 60,
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Пиво Бочкове",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Львівське 1715",
+              uk: "Львівське 1715",
+            },
+            weight: "300 (500)",
+            price: "40 (60)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Carlsberg",
+              uk: "Carlsberg",
+            },
+            weight: "300 (500)",
+            price: "40 (60)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Львівське Білий лев",
+              uk: "Львівське Білий лев",
+            },
+            weight: "300 (500)",
+            price: "40 (60)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Львівське Дункель",
+              uk: "Львівське Дункель",
+            },
+            weight: "300 (500)",
+            price: "40 (60)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Grimbergen Бланш",
+              uk: "Grimbergen Бланш",
+            },
+            weight: "300 (500)",
+            price: "60 (100)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Grimbergen Блонд",
+              uk: "Grimbergen Блонд",
+            },
+            weight: "300 (500)",
+            price: "60 (100)",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Grimbergen Дабл Амбре",
+              uk: "Grimbergen Дабл Амбре",
+            },
+            weight: "300 (500)",
+            price: "60 (100)",
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Пиво В Пляшці",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Carlsberg",
+              uk: "Carlsberg",
+            },
+            weight: "1",
+            price: "60",
+            indentifyer: "п",
+          },
+          {
+            name: {
+              en: "Carlsberg б/а",
+              uk: "Carlsberg б/а",
+            },
+            weight: "1",
+            price: "50",
+            indentifyer: "п",
+          },
+          {
+            name: {
+              en: "Corona",
+              uk: "Corona",
+            },
+            weight: "1",
+            price: "75",
+            indentifyer: "п",
+          },
+          {
+            name: {
+              en: "Сидр Сомерсбі",
+              uk: "Сидр Сомерсбі",
+            },
+            weight: "1",
+            price: "60",
+            indentifyer: "п",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Настоянки",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Хріновуха",
+              uk: "Хріновуха",
+            },
+            weight: "50",
+            price: "30",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "П’яна вишня",
+              uk: "П’яна вишня",
+            },
+            weight: "50",
+            price: "30",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Журавлина",
+              uk: "Журавлина",
+            },
+            weight: "50",
+            price: "30",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Обліпиха",
+              uk: "Обліпиха",
+            },
+            weight: "50",
+            price: "30",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Лімончелло",
+              uk: "Лімончелло",
+            },
+            weight: "50",
+            price: "30",
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Безалькогольні напої",
+        },
+        postitions: [
+          {
+            name: {
+              en: "SANDORA сік",
+              uk: "SANDORA сік",
+            },
+            weight: "250",
+            price: "35",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Pepsi (в склі)",
+              uk: "Pepsi (в склі)",
+            },
+            weight: "330",
+            price: "50",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Pepsi",
+              uk: "Pepsi",
+            },
+            weight: "500",
+            price: "45",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "7-UP",
+              uk: "7-UP",
+            },
+            weight: "500",
+            price: "45",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Evervess тонік",
+              uk: "Evervess тонік",
+            },
+            weight: "500",
+            price: "45",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Карпатська джерельна",
+              uk: "Карпатська джерельна",
+            },
+            weight: "500",
+            price: "60",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Боржомі",
+              uk: "Боржомі",
+            },
+            weight: "500",
+            price: "75",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Узвар",
+              uk: "Узвар",
+            },
+            weight: "300",
+            price: "26",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Сік ФРЕШ моркв'яно-яблучний",
+              uk: "Сік ФРЕШ моркв'яно-яблучний",
+            },
+            weight: "300",
+            price: "90",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Сік ФРЕШ апельсиновий",
+              uk: "Сік ФРЕШ апельсиновий",
+            },
+            weight: "300",
+            price: "120",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Сік ФРЕШ грейфрутовий",
+              uk: "Сік ФРЕШ грейфрутовий",
+            },
+            weight: "300",
+            price: "180",
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Кава та Чай",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Еспрессо",
+              uk: "Еспрессо",
+            },
+            weight: "1",
+            price: "35",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Капучіно",
+              uk: "Капучіно",
+            },
+            weight: "1",
+            price: "50",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Американо з молоком",
+              uk: "Американо з молоком",
+            },
+            weight: "1",
+            price: "45",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Латте",
+              uk: "Латте",
+            },
+            weight: "1",
+            price: "50",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Чай листковий",
+              uk: "Чай листковий",
+            },
+            weight: "1",
+            price: "40",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Чай обліпиховий",
+              uk: "Чай обліпиховий",
+            },
+            weight: "1",
+            price: "60",
+            indentifyer: "ч",
+          },
+          {
+            name: {
+              en: "Чай трав’яний з медом",
+              uk: "Чай трав’яний з медом",
+            },
+            weight: "1",
+            price: "60",
+            indentifyer: "ч",
           },
         ],
       },

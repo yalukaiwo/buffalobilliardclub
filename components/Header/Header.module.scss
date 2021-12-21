@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     padding: 30px 0;
     z-index: 200;
 }
@@ -27,4 +28,9 @@
     @media(max-width: $media_barrier) {
         font-size: 17px;
     }
+}
+
+.shedule {
+    font-size: 16px;
+    cursor:default;
 }

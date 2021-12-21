@@ -19,6 +19,9 @@
     max-width: 1260px;
     padding: 0 60px;
     margin: 0 auto;
+    @media(max-width: $media_barrier) {
+        padding: 0 30px;
+    }
 }
 
 .content_holder {

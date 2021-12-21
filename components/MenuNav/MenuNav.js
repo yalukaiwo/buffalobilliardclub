@@ -58,6 +58,7 @@ export default function MenuNav({
       >
         <div className={styles.header}>
           <img src="./logo.png" alt="logo" className={styles.image} />
+          <h2 className={styles.shedule}>12.00 - 01.00</h2>
           <div
             className={styles.menu__toggle_holder_open}
             onClick={clickHandler}
