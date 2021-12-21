@@ -10,7 +10,7 @@ export default function Menu() {
   const [arrow, setArrow] = useState(false);
   const [type, setType] = useState("foods");
   const [content, setContent] = useState(menu[type].categories[0].name.uk);
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   useEffect(() => {
     window.onscroll = () => {
