@@ -15,7 +15,7 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@300;400;500;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="icon" type="image/x-icon" href="./logo.png" />
+          <link rel="icon" type="image/x-icon" href="./icon.png" />
         </Head>
         <body>
           <Main />
