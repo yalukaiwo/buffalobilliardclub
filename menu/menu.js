@@ -97,7 +97,7 @@ const menu = {
               uk: "Карпаччо з телятини",
             },
             weight: 150,
-            price: 150,
+            price: 190,
             indentifyer: "г",
           },
           {
@@ -203,7 +203,7 @@ const menu = {
               en: "Grilled potatoes with bacon, onions and cheese",
               uk: "Смажена картопля з цибулею і беконом запечена під сиром",
             },
-            weight: 250,
+            weight: 350,
             price: 170,
             indentifyer: "г",
           },
@@ -336,7 +336,7 @@ const menu = {
               uk: "Котлета по-київськи",
             },
             weight: 150,
-            price: 90,
+            price: 120,
             indentifyer: "г",
           },
           {
@@ -350,20 +350,11 @@ const menu = {
           },
           {
             name: {
-              en: "Tuna steak",
-              uk: "Стейк з тунця",
-            },
-            weight: 100,
-            price: 180,
-            indentifyer: "г",
-          },
-          {
-            name: {
               en: "Salmon in an apple-kiwi sauce",
               uk: "Сьомга у фруктовому соусі",
             },
-            weight: 100,
-            price: 180,
+            weight: 200,
+            price: 260,
             indentifyer: "г",
           },
         ],
@@ -538,7 +529,7 @@ const menu = {
               en: "Brownie with ice cream",
               uk: "Брауні з морозивом",
             },
-            weight: 250,
+            weight: 200,
             price: 130,
             indentifyer: "г",
           },
@@ -592,15 +583,6 @@ const menu = {
             },
             weight: "50",
             price: 65,
-            indentifyer: "мл",
-          },
-          {
-            name: {
-              en: "Wyborowa",
-              uk: "Wyborowa",
-            },
-            weight: "50",
-            price: 52,
             indentifyer: "мл",
           },
           {
@@ -712,6 +694,33 @@ const menu = {
           },
           {
             name: {
+              en: "Jameson Cold Brew",
+              uk: "Jameson Cold Brew",
+            },
+            weight: "50",
+            price: 110,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Jameson Stout Edition",
+              uk: "Jameson Stout Edition",
+            },
+            weight: "50",
+            price: 110,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Ballantine's 7 YO Bourbon Finish",
+              uk: "Ballantine's 7 YO Bourbon Finish",
+            },
+            weight: "50",
+            price: 110,
+            indentifyer: "мл",
+          },
+          {
+            name: {
               en: "Ballantine's Finest",
               uk: "Ballantine's Finest",
             },
@@ -770,6 +779,15 @@ const menu = {
             },
             weight: "50",
             price: 80,
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "ARARAT Ani 7 YO",
+              uk: "ARARAT Ani 7 YO",
+            },
+            weight: "50",
+            price: 120,
             indentifyer: "мл",
           },
           {
@@ -982,7 +1000,7 @@ const menu = {
               uk: "Carlsberg б/а",
             },
             weight: "1",
-            price: "50",
+            price: "60",
             indentifyer: "п",
           },
           {
@@ -1008,9 +1026,72 @@ const menu = {
       {
         name: {
           en: "Drink",
-          uk: "Настоянки",
+          uk: "Алкогольні коктейлі",
         },
         postitions: [
+          {
+            name: {
+              en: "Long Island Iced Tea",
+              uk: "Long Island Iced Tea",
+            },
+            weight: "250",
+            price: "180",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Mohito",
+              uk: "Мохіто",
+            },
+            weight: "300",
+            price: "120",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Gluntwein",
+              uk: "Глінтвейн",
+            },
+            weight: "200",
+            price: "120",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Spritz",
+              uk: "Spritz",
+            },
+            weight: "200",
+            price: "160",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Martini Royal",
+              uk: "Martini Royal",
+            },
+            weight: "200",
+            price: "165",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Cosmopolitan",
+              uk: "Cosmopolitan",
+            },
+            weight: "100",
+            price: "90",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Зелений мексиканець",
+              uk: "Зелений мексиканець",
+            },
+            weight: "50",
+            price: "90",
+            indentifyer: "мл",
+          },
           {
             name: {
               en: "Хріновуха",
@@ -1168,6 +1249,41 @@ const menu = {
       {
         name: {
           en: "Drink",
+          uk: "Безалькогольні коктейлі",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Banana cocktail",
+              uk: "Банановий коктейль",
+            },
+            weight: "300",
+            price: "70",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Milkshake",
+              uk: "Молочний коктейль",
+            },
+            weight: "300",
+            price: "70",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Non-alkohol mohito",
+              uk: "Мохіто б/а",
+            },
+            weight: "300",
+            price: "70",
+            indentifyer: "мл",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
           uk: "Кава та Чай",
         },
         postitions: [
@@ -1233,6 +1349,103 @@ const menu = {
             weight: "",
             price: "60",
             indentifyer: "ч",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Червоні вина",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Cabernet Sauvignon IGT (Italy)",
+              uk: "Cabernet Sauvignon IGT (Італія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Bardolino DOC (Italy)",
+              uk: "Bardolino DOC (Італія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Toscana Rosso IGT (Italy)",
+              uk: "Toscana Rosso IGT (Італія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Alazani Valley (Georgia)",
+              uk: "Alazani Valley (Грузія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Saperavi (Georgia)",
+              uk: "Saperavi (Грузія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Білі вина",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Chardonnay IGT (Italy)",
+              uk: "Chardonnay IGT (Італія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Soave DOC (Italy)",
+              uk: "Soave DOC (Італія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Alazani Valley (Georgia)",
+              uk: "Alazani Valley (Грузія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
+          },
+          {
+            name: {
+              en: "Tsinandali (Georgia)",
+              uk: "Tsinandali (Грузія)",
+            },
+            weight: "1",
+            price: "96/480",
+            indentifyer: " б/п",
           },
         ],
       },
