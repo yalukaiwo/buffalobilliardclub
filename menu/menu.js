@@ -97,7 +97,7 @@ const menu = {
               uk: "Карпаччо з телятини",
             },
             weight: 150,
-            price: 190,
+            price: 150,
             indentifyer: "г",
           },
           {
@@ -105,7 +105,7 @@ const menu = {
               en: "Salmon carpaccio",
               uk: "Карпаччо з сьомги",
             },
-            weight: 100,
+            weight: 150,
             price: 190,
             indentifyer: "г",
           },
@@ -1034,14 +1034,14 @@ const menu = {
               en: "Long Island Iced Tea",
               uk: "Long Island Iced Tea",
             },
-            weight: "250",
+            weight: "260",
             price: "180",
             indentifyer: "мл",
           },
           {
             name: {
               en: "Mohito",
-              uk: "Мохіто",
+              uk: "Mohito",
             },
             weight: "300",
             price: "120",
@@ -1070,7 +1070,7 @@ const menu = {
               en: "Martini Royal",
               uk: "Martini Royal",
             },
-            weight: "200",
+            weight: "280",
             price: "165",
             indentifyer: "мл",
           },
@@ -1088,7 +1088,7 @@ const menu = {
               en: "Зелений мексиканець",
               uk: "Зелений мексиканець",
             },
-            weight: "50",
+            weight: "60",
             price: "90",
             indentifyer: "мл",
           },
@@ -1446,6 +1446,50 @@ const menu = {
             weight: "1",
             price: "96/480",
             indentifyer: " б/п",
+          },
+        ],
+      },
+      {
+        name: {
+          en: "Drink",
+          uk: "Білі вина",
+        },
+        postitions: [
+          {
+            name: {
+              en: "Артемівське (Ukraine)",
+              uk: "Артемівське  (Україна)",
+            },
+            weight: "200/750",
+            price: "120/300",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Базалеті брют (Georgia)",
+              uk: "Базалеті брют  (Грузія)",
+            },
+            weight: "750",
+            price: "500",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Базалеті н/сухе (Georgia)",
+              uk: "Базалеті н/сухе  (Грузія)",
+            },
+            weight: "750",
+            price: "500",
+            indentifyer: "мл",
+          },
+          {
+            name: {
+              en: "Lambrusco біле н/солодке (Italy)",
+              uk: "Lambrusco біле н/солодке (Італія)",
+            },
+            weight: "750",
+            price: "400",
+            indentifyer: "мл",
           },
         ],
       },
