@@ -1452,7 +1452,7 @@ const menu = {
       {
         name: {
           en: "Drink",
-          uk: "Білі вина",
+          uk: "Ігристі вина",
         },
         postitions: [
           {
