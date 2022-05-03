@@ -5,12 +5,18 @@ import MenuNav from "../../components/MenuNav/MenuNav";
 import { useState, useEffect } from "react";
 import menu from "../../menu/menu";
 import MenuContent from "../../components/MenuContent/MenuContent";
+import { useRouter } from "next/dist/client/router";
 
 export default function Menu() {
   const [arrow, setArrow] = useState(false);
   const [type, setType] = useState("foods");
   const [content, setContent] = useState(menu[type].categories[0].name.uk);
   const [open, setOpen] = useState(true);
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/");
+  }, []);
 
   useEffect(() => {
     window.onscroll = () => {
